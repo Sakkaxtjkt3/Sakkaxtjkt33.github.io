@@ -1,112 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Sekolah Kita</title>
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SOAL PG ALAT UKUR TJKT</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-        <div class="container">
-    <h1>SOAL PG ALAT UKUR TJKT</h1>
-    <hr>   
-    <b>
-1. Fungsi dari mistar baja (caliper) adalah….<br>
-<b>a. Tinggi benda bertingkat </b><br>
-b. Cela katup <br>
-c. Cela klep <br>
-d. Cela platina <br>
-e. Gerak bebas <br>
-   </b>
-   <b>
-2. Multitester yang hasil pengukurannya ditunjukan langsung oleh sebuah jarum adalah..<br>
-a. Multitester digital <br>
-b. Multitester berimpit <br>
-<b>c. Multitester analog </b> <br>
-d. Hidrometer <br>
-e. Timing light <br>
-3.  Alat yang digunakan untuk mengukur nilai resistansi disebut ….<br>
-a.ampere meter<br>
-b.volt meter<br>
-c.watt meter<br>
-<b>d.ohm meter</b><br>
-e.centi meter<br>
-4.Alat yang digunakan untuk mengukur nilai arus listrik disebut ….<br>
-a.ampere meter<br>
-b.volt meter<br>
-c.watt meter<br>
-<b>d.ohm meter </b> <br>
-e.tempratur<br>
-5.Alat yang digunakan untuk mengukur nilai tegangan listrik disebut ….<br>
-a.ampere meter<br>
-<b>b.volt meter</b> <br>
-c.watt meter<br>
-d.ohm meter<br>
-e.penggaris<br>
-6. Untuk mengukur tegangan listrik AC, maka selector switch pada AVO meter harus pada posisi…<br>
- a. Ω<br>
-<b>  b. ACV </b><br>
- c. DCV<br>
- d. DCA  <br>   
-e.desimeter <br>       
-7. ebelum melakukan pengukuran resistansi, maka harus menepatkan jarum pada posisi 0 (nol). Hal ini disebut dengan…<br>
-     a. Pengukuran tahanan<br>
-     b. Uji coba probe<br>
-   <b>c. Kalibrasi </b> <br>
-     d. Pengukuran tegangan<br>
-     e. meter<br>
-8. Untuk mengukur arus listrik DC, maka selektor switch pada AVO meter harus pada posisi… <br>
-     a. Ω <br>
-     b. ACV <br>
-     c. DCV <br>
-    <b> d. DCA  </b><br>
-     e.BCG<br>
-9.  Untuk mengukur hambatan listrik, maka selektor switch pada AVO meter harus pada posisi…<br>
-     <b>  a. Ω </b> <br>
-     b. ACV<br>
-     c. DCV<br>
-     d. DCA<br>
-    e. GJC<br>
+  <!-- Materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-10. ika jarum menunjuk dan berhenti di angka 2 lebih satu garis pada VDC skala 10, maka berapakah nilai tegangannya…<br>
-      <b>  a. 2,2 VDC  </b> <br>
-     b. 2,4 VDC<br>
-     c. 2,6 VDC<br>
-     d. 2,2 VAC<br>
-     e. 2,5 GJC<br>
-11. Jika jarum menunjuk dan berhenti di angka 200 lebih 4 garis pada VAC skala 250, maka berapakah nilai tegangannya…<br>
-     a. 210 VAC<br>
-     b. 220 VAC<br>
-    <b>   c. 240 VAC</b><br>
-     d. 220 VDC<br>
-     e. 289 HCJ<br>
-12. Jika jarum menunjuk dan berhenti di tengah-tengah angka 100 dan 150 pada ampere meter skala 0.25A, maka berapakah nilai arusnya…<br>
-     a. 125 A<br>
-     b. 12,5 A<br>
-     c. 1,25 A<br>
-      <b>  d. 0,125 A</b><br>
-     e. 0,62 A <br>
-13. Bagaimana cara pemasangan alat ukur ampere meter terhadap beban…<br>
-          <b> a. Seri terhadap beban</b><<br>
-     b. Paralel terhadap beban<br>
-     c. Seri terhadap sumber tegangan<br>
-     d. Paralel terhadap sumber tegangan<br>
-     e. pararel terhadap kejurtan   <br> 
- 14. Bagaimana cara pemasangan alat ukur volt meter terhadap beban……<br>
-     a. Seri terhadap beban<br>
-       <b>  b. Paralel terhadap beban</b> <br>
-     c. Seri terhadap sumber tegangan<br>
-     d. Paralel terhadap sumber tegangan<br>
-     e. seri terhadap kejutan <br>
-15. Beban yang berupa kumparan disebut dengan beban …<br>
-     a. Beban resisitif<br>
-     b. Beban kapasitif<br>
-     <b> c. Beban induktif</b> <br>
-     d. Beban nol<br>
-     e. beban satu <br>
-        </b>
+  <style>
+    body {
+      background: #f9fafb;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    nav {
+      background: #2e7d32;
+    }
+
+    .hero {
+      background: white;
+      padding: 80px 0;
+    }
+
+    .hero img {
+      width: 100%;
+      border-radius: 16px;
+    }
+
+    .section {
+      padding: 70px 0;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      border-radius: 14px;
+    }
+
+    .info-icon {
+      font-size: 48px;
+      color: #2e7d32;
+    }
+
+    footer {
+      background: #1b5e20;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="nav-wrapper container">
+    <a href="#" class="brand-logo">Sekolah Kita</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#pengumuman">Pengumuman</a></li>
+      <li><a href="#artikel">Artikel</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="row valign-wrapper">
+      <div class="col s12 m6">
+        <h4>Sekolah Modern & Berprestasi</h4>
+        <p>
+          Website resmi Sekolah Kita sebagai pusat informasi akademik,
+          kegiatan, dan prestasi siswa.
+        </p>
+        <a href="#profil" class="btn green darken-2">Lihat Profil</a>
+      </div>
+      <div class="col s12 m6">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.irdL0lJqM6ZqfysvtJVH9QHaEJ?pid=Api&P=0&h=180">
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+  </div>
+</section>
+
+<!-- Profil -->
+<section id="profil" class="section container">
+  <h4 class="section-title center-align">Profil Sekolah</h4>
+  <div class="row center-align">
+    <div class="col s12 m4">
+      <i class="material-icons info-icon">emoji_events</i>
+      <h6>Visi</h6>
+      <p>Mewujudkan generasi unggul dan berkarakter.</p>
+    </div>
+    <div class="col s12 m4">
+      <i class="material-icons info-icon">assignment</i>
+      <h6>Misi</h6>
+      <p>Meningkatkan mutu pendidikan berbasis teknologi.</p>
+    </div>
+    <div class="col s12 m4">
+      <i class="material-icons info-icon">domain</i>
+      <h6>Fasilitas</h6>
+      <p>Lab modern, perpustakaan, dan ruang praktik.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Pengumuman -->
+<section id="pengumuman" class="section grey lighten-4">
+  <div class="container">
+    <h4 class="section-title center-align">Pengumuman</h4>
+    <ul class="collection">
+      <li class="collection-item">📢 Libur semester 20 Juni</li>
+      <li class="collection-item">📢 PPDB Tahun Ajaran Baru</li>
+      <li class="collection-item">📢 Ujian Akhir Juli</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Artikel -->
+<section id="artikel" class="section container">
+  <h4 class="section-title center-align">Artikel Terbaru</h4>
+  <div class="row">
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://cdn-sekolah.annibuku.com/20606910/4.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title">SMK Yadika 4</span>
+          Sekolah kejuruan dengan fokus keterampilan dan karakter.
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://smkyadika4.id/wp-content/uploads/2025/05/lab-software.jpg">
+        </div>
+        <div class="card-content">
+          <span class="card-title">Kegiatan Belajar</span>
+          Pembelajaran aktif dan berbasis praktik.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section id="kontak" class="section grey lighten-4">
+  <div class="container center-align">
+    <h4 class="section-title">Kontak Kami</h4>
+    <p>
+      📍 Jl. Pendidikan No.1 <br>
+      📞 08123456789 <br>
+      📧 sekolah@email.com
+    </p>
+
+    <div class="video-container">
+      <iframe src="https://www.google.com/maps?q=sekolah&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="white-text center-align">
+  © 2026 Sekolah Kita
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
 </html>
